@@ -1,11 +1,16 @@
 nome = """
-Pedro de Alcântara João Carlos Leopoldo
-Salvador Bibiano Francisco Xavier de Paula
-Leocádio Miguel Gabriel Rafael Gonzaga
-de Bragança e Habsburgo
+Augusto Iseppe Balan
 """
-
+meu_nome = "Darinha Iseppe Balan"
+# A funcao split() retorna uma lista com as partes da string
 partes_nome = nome.split()
+meu_nome_em_partes = meu_nome.split()
+
+for parte in meu_nome_em_partes:
+    print(parte)
+
+print(partes_nome)
+print(meu_nome_em_partes)
 
 match partes_nome:
     case [primeiro]:

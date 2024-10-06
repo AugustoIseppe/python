@@ -16,8 +16,8 @@ def criar_usuario(**atributos):
 
 
 novo_usuario = criar_usuario(
-    nome="Maria Ferreira",
-    email="mariafr@empresa.com.br"
+    nome="Augusto Iseppe",
+    email="augusto.iseppe@empresa.com.br"
 )
 
 print(novo_usuario)

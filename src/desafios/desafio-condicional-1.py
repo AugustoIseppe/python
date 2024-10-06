@@ -6,11 +6,11 @@
 
 velocidade_carro = int(input("Informe a velocidade de carro: "))
 
-VEL_MAX = 80
+velocidade_maxima = 80
 
-if velocidade_carro > VEL_MAX:
+if velocidade_carro > velocidade_maxima:
     print("Voce foi multado por estar acima de velocidade permitida (80km/h)")
-    valor_multa = (velocidade_carro - VEL_MAX) * 5
+    valor_multa = (velocidade_carro - velocidade_maxima) * 5
     print(f"O valor da multa é de R${valor_multa:.2f}")
 else:
     print("Voce esta dentro do limite de velocidade permitida (80km/h)")

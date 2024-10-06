@@ -1,3 +1,4 @@
+# Qualquer comparacao, retorna um booleano (verdadeiro ou falso)
 print(10 > 9)
 
 esta_chovendo = False

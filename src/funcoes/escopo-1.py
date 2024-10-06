@@ -1,11 +1,11 @@
 def exibir_nome():
     # Escopo Local
-    nome_completo = f"Pedro {sobrenome}"
+    nome_completo = f"Augusto {sobrenome}"
     print(nome_completo)
 
 
 # Escopo Global
-sobrenome = 'Silva'
+sobrenome = 'Iseppe'
 
 exibir_nome()
 # print(nome_completo)

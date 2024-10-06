@@ -1,3 +1,4 @@
+# O simbolo * antes do nome do parametro indica que ele é um parametro variável
 def calcular_media(*numeros):
     return sum(numeros) / len(numeros)
 

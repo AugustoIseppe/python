@@ -3,6 +3,10 @@ def diga_oi():
     print('Oiiiiii')
 
 
-diga_oi()
+for i in range(3):
+    diga_oi()
+
+print("____")
+
 diga_oi()
 diga_oi()
