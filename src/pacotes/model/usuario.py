@@ -8,5 +8,6 @@ class Usuario:
         self.nome = NomePessoa(nome, 'Nome Usuário')
         self.email = Email(email, 'E-mail Usuário')
 
+    # Método mágico que retorna a representação em string do objeto
     def __str__(self) -> str:
-        return f"Usuário: {self.nome} {self.email}"
+        return f"Usuário: {self.nome} | {self.email}"

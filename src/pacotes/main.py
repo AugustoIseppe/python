@@ -1,4 +1,4 @@
 from model import Usuario
 
-usuario = Usuario('Leonardo Leitão', 'jose@empresa.com.br')
+usuario = Usuario('Augusto Iseppe', 'augustoiseppe@empresa.com.br')
 print(usuario)
