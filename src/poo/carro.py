@@ -4,12 +4,15 @@ class Carro:
         self.modelo = modelo
         self.velocidade = velocidade
 
+    # Métodos -> Comportamentos
     def acelerar(self):
         self.velocidade += 10
 
+    # Métodos -> Comportamentos
     def frear(self):
         self.velocidade -= 10
 
+    # Métodos -> Comportamentos
     def buzinar(self, qtde=1):
         for i in range(qtde):
             print(f"{self.marca} {self.modelo} => Biiiiiiii")

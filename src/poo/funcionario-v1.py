@@ -1,6 +1,7 @@
+# Exemplo de encapsulamento em Python
 class FuncionarioV1:
     def __init__(self, salario):
-        self.__salario = salario
+        self.__salario = salario  # Atributo privado através do __
 
     # GETTER
     def get_salario(self):

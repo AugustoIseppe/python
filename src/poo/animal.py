@@ -4,7 +4,7 @@ class Animal:
         pass
 
     def expressar(self):
-        return f"O {self.nome} está fazendo um som"
+        return f"{self.nome} está fazendo um som"
 
 
 class Cachorro(Animal):
@@ -18,6 +18,9 @@ class Cachorro(Animal):
 class Gato(Animal):
     def __init__(self, nome):
         super().__init__(nome)
+
+    def expressar(self):
+        return super().expressar() + "... miau miau miau"
 
 
 a1 = Animal("Animal")

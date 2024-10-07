@@ -22,6 +22,9 @@ class AtendenteJp(Atendente):
         return "おはよう"
 
 
+a0 = AtendentePt()
+print(a0.saudacao())
+
 a1 = AtendenteEn()
 print(a1.saudacao())
 
