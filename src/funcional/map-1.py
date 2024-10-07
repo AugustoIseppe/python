@@ -1,3 +1,4 @@
+# A função map() serve para aplicar uma função a todos os elementos de uma lista.
 def dobro(n):
     return n * 2
 
