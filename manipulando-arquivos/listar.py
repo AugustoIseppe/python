@@ -23,4 +23,6 @@ def main():
     print(arquivos)
 
 
-main()
+# essa condicional verifica se o arquivo está sendo executado diretamente ou se está sendo importado. Só será executado se for o arquivo principal
+if __name__ == "__main__":
+    main()
